@@ -6,8 +6,11 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
+    font-family: Arial, sans-serif;
     color: rgb(255, 255, 7);
     font-size: 1.6em;
+    -webkit-text-stroke-width: 1px; /* Ancho del borde */
+    -webkit-text-stroke-color: black; /* Color del borde */
 }
 
 header .container {
@@ -32,6 +35,8 @@ header a{
 }
 header a:hover {
     color: brown;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
